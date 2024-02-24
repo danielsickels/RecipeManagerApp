@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: odoo-proxy
+  labels:
+    app: odoo-proxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: odoo-proxy
+  template:
+    metadata:
+      labels:
+        app: odoo-proxy
+    spec:
+      containers:
+        - name: odoo-proxy
+          image: testapi
+          ports:
+            - containerPort: 80
+          imagePullPolicy: IfNotPresent

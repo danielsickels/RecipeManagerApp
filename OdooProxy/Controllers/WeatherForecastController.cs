@@ -9,10 +9,10 @@ namespace OdooProxy.Controllers
         // Constructor and any other necessary properties or methods can remain or be adjusted according to your needs.
 
         // This method responds to GET requests made to the endpoint
-        [HttpGet("poop")]
-        public IActionResult GetPoop()
+        [HttpGet("lol")]
+        public IActionResult GetLol()
         {
-            return Ok("poop"); // Returns the string "poop"
+            return Ok("lol"); // Returns the string "poop"
         }
 
         // You can comment out or remove the previous LoginAsync method if it's no longer needed

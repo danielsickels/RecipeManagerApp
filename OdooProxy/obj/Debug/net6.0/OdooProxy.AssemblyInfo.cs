@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OdooProxy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec9bba46e4c6baaa948e87b471b2366329889b06")]
 [assembly: System.Reflection.AssemblyProductAttribute("OdooProxy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OdooProxy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

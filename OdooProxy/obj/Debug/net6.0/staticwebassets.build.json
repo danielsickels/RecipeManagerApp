@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nCKKOjZmnj+1LHD4iMVhFZ+rPit4ddbmg4vN1ZgxiIE=",
+  "Source": "OdooProxy",
+  "BasePath": "_content/OdooProxy",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

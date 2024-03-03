@@ -14,14 +14,8 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: postgres:13
-          env:
-            - name: POSTGRES_DB
-              value: "postgres"
-            - name: POSTGRES_USER
-              value: "odoo"
-            - name: POSTGRES_PASSWORD
-              value: "odoo"
+          image: recipedb
+          imagePullPolicy: IfNotPresent
           volumeMounts:
             - name: postgres-storage
               mountPath: /var/lib/postgresql/data
